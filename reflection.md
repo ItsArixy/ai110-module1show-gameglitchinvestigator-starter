@@ -5,7 +5,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+It opened up a REACt-style game prompt. The idea was to select your difficulty and input a number with hints telling you to go up or down.
 - List at least two concrete bugs you noticed at the start  
+The score would always go down, despite getting the correct number. And trying to select a new mode or game would prompt the game to crash/not work by still thinking its the same game mode.
   (for example: "the hints were backwards").
 
 **Bug Reproduction Log**
